@@ -41,11 +41,11 @@ function App() {
 
       <button onClick={fakeUpload}>Upload CSV</button>
 
-      <p>Progress: {progress}%</p>
+      <p>Progressssss: {progress}%</p>
 
       {result && (
         <>
-          <p>Valid Rows: {result.valid}</p>
+          <p>Valid Rowsss: {result.valid}</p>
           <p>Total Amount: ₹{Math.round(result.total)}</p>
         </>
       )}
